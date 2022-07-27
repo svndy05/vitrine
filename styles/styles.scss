@@ -1,0 +1,15 @@
+@use '_breakpoints.module.scss';
+
+body {
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
+      'Arial', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+    @include breakpoints.respond-to('lg'){
+      width:95vw;
+     }
+   @include breakpoints.respond-to('xl'){
+    width:80vw;
+   } 
+   
+  }
